@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --browncolor: rgb(137, 73, 27);
+    --greycolor: rgb(84, 82, 82)
+}
+html ::not(h1,h2,h3){
+    font-size: 10px;
+}
+body{
+    background-color: white;
+   
+}
+img{
+    width: 100%;
+}
+.page{
+    margin: 2.4rem auto;
+    border-radius: 15px;
+    width: 700px;
+    height: 125vh;
+    background-color: rgb(235, 229, 220);
+}
+.ctn{
+    width: 700px;
+    display: flex;
+}
+.img-ctn{
+    width: 350px;
+    border-bottom: 2.4rem 0;
+    position: relative;
+}
+.right, .ingredients-fc, .ingredients-fss {
+    padding: 1.2rem;
+}
+.img-txt-ctn{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.tr-img{
+    margin: 1.6rem 0;
+    height: 120px; 
+    width: 120px;
+    border-radius: 60px;
+    overflow: hidden;
+    object-fit: contain;
+}
+h1{
+    color: var(--browncolor);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+#text-overlay{
+    padding: .4rem;
+    width: 650px;
+    position: absolute;
+    top: 86%;
+    left: 12%;
+    font-size: 20px;
+    text-align: left;
+    transform: translate(-5%, -95%);
+    background-color: var(--browncolor);
+    color: white;
+    font-weight: 200;
+}
+#bt{
+    color: var(--browncolor);
+    font-weight: 400;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+.ingredients{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+ h2{
+    margin: .8rem 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.line{
+    border: 1px solid var(--greycolor);
+    height: 1px;
+    width: 140px;
+    margin-bottom: 2rem ;
+}
+.list{
+    list-style: none;
+}
+.how-to-cook{
+    margin: 1.2rem;
+}
+
+#UL{
+    margin: 2rem;
+}
+.link{
+    margin: 1.6rem 2.8rem;
+    padding: .8rem;
+    border: 2px solid red;
+    height: 50px;
+    width: 560px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
